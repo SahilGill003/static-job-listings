@@ -42,7 +42,7 @@ body,
 }
 
 #root {
-  background: url('./images/bg-header-mobile.svg'), linear-gradient(to bottom, hsl(180, 29%, 50%) 150px, hsl(180, 52%, 96%) 150px);
+  background: url('/images/bg-header-mobile.svg'), linear-gradient(to bottom, hsl(180, 29%, 50%) 150px, hsl(180, 52%, 96%) 150px);
   background-repeat: no-repeat;
   background-size: 100% 150px, cover;
 }
@@ -241,7 +241,7 @@ main {
 
 @media screen and (min-width:800px) {
   #root {
-    background: url('./images/bg-header-desktop.svg'), linear-gradient(to bottom, hsl(180, 29%, 50%) 150px, hsl(180, 52%, 96%) 150px);
+    background: url('/images/bg-header-desktop.svg'), linear-gradient(to bottom, hsl(180, 29%, 50%) 150px, hsl(180, 52%, 96%) 150px);
     background-repeat: no-repeat;
     background-size: 100% 150px, cover;
   }
