@@ -22,14 +22,13 @@ const FilterTag = ({ filter, addFilter }: { filter: string, addFilter: Function 
 
 
 export default ({ job, addFilter }: { job: Job, addFilter: Function }) => {
-  const value = 'src/' + job.logo;
   const allTags = [job.level, job.role, ...job.languages, ...job.tools];
 
 
   return <div className="card grid">
     {job.featured ? <div className="flex featured">
     </div> : null}
-    <img className="company-logo" src={value} />
+    <img className="company-logo" src={job.logo} />
     <div className="company-details flex">
       <div className="title flex">
         <p className="company-name">{job.company}</p>

@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react'
 
 const FilterTag = ({ filter, removeFilter }: { filter: string, removeFilter: Function }) =>
   <div className='remove-filter' onClick={() => removeFilter(filter)}><span className="filter-tag">{filter}</span>
-    <img className='icon-remove' src="../src/images/icon-remove.svg" alt="" /></div>
+    <img className='icon-remove' src="images/icon-remove.svg" alt="" /></div>
 
 export default () => {
   const [filters, setFilters] = useState<Array<string>>([]);
